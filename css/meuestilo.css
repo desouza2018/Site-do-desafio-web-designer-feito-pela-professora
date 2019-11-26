@@ -3,32 +3,20 @@ body{
     font-family: Arial;
     margin: 0    
 }
-.mae{
-  width: 1000px;
-  height: 1000px;
-  border-block: 2px;
-  border-radius: 4px;
-  border-color: cornflowerblue;
-}
+
 /* Header/Logo and Title*/
 .header{
-    padding: 60px;
-    text-align: center;
-    background: #1abc9c;
-    color: white;
-    font-size: 30px;   
-}
-.article{
-    padding: 20px;
-    border-block-color:blueviolet;    
-}
-.aside{
-    padding:20px;
+  width: 1350px;
+  background-color: #98FB98;
+  padding: 20px;
+  text-align: center;   
 }
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
-    overflow: hidden;    
+  width: 1350px;
+  height: 50px;
+  background-color: #333;
+  overflow: hidden;    
   }
   
   /* Style the links inside the navigation bar */
@@ -51,30 +39,36 @@ body{
   .topnav a.active {
     background-color: #4CAF50;
     color: white;
+  } 
+  #artigo{
+    width: 1350px;
+    height: 800px;
+  } 
+  #octocat{
+    float: left;
+    width: 198px;
+    height: 800px;
   }
-  #principal{
-      width: 998px;
-      height: 698px;  
-      float: left;
-      border-bottom-style: solid;
-      border-width: 5px;
-      border-color: darkblue;
-      
-  }
-
   div.overflow {
     background-color: lightblue;
-    width: 700px;
-    height: 700px;
+    width: 698px;
+    height: 800px;
     overflow: scroll;
-    float: right;
+    float: left;
     font-family: Arial, Helvetica, sans-serif;  
-    text-align: left;  
-    border-width: 5px;  
-    border-color: darkblue;
+    text-align: left;     
   }
 #canto_direito{
   float: right;
-  width: 200px;
-  height: 700px;
+  width: 448px;
+  height: 800px;
+  background-color: lightsalmon;
+  text-align: center;
+}
+#rodape{
+  background-color: darkslategray;
+  width: 1350px; 
+  text-align: initial;
+  padding: 20px;  
+  
 }
